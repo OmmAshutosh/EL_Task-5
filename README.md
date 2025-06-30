@@ -20,8 +20,6 @@ Capture live network packets using Wireshark and analyze basic protocols and tra
 - Download and install Wireshark:  
   [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
 
-📸 *Screenshot: Wireshark main interface after installation*
-
 ---
 
 ### ✅ Step 2: Start Capture on Active Network Interface
@@ -29,8 +27,6 @@ Capture live network packets using Wireshark and analyze basic protocols and tra
 1. Launch Wireshark
 2. Select your **active network interface** (e.g., Ethernet, Wi-Fi)
 3. Click **"Start Capturing Packets"**
-
-📸 *Screenshot: Capture in progress showing live traffic*
 
 ---
 
@@ -40,16 +36,12 @@ Capture live network packets using Wireshark and analyze basic protocols and tra
   - Visit `https://www.google.com`
   - Run: `ping google.com` from terminal/command prompt
 
-📸 *Screenshot: Ping output or browser open*
-
 ---
 
 ### ✅ Step 4: Stop the Capture
 
 - Wait for about 1 minute of traffic
 - Click the **red square (■)** in Wireshark to stop capture
-
-📸 *Screenshot: Captured packet list in Wireshark*
 
 ---
 
@@ -64,8 +56,6 @@ Use the filter bar to view specific traffic:
 | TCP      | `tcp`             |
 | ICMP     | `icmp`            |
 
-📸 *Screenshot: Filtered results for at least 3 protocols*
-
 ---
 
 ### ✅ Step 6: Identify 3 Protocols & Analyze Packets
@@ -78,16 +68,12 @@ Identify and document at least **3 protocols** you observed:
 | HTTP     | Web Communication            | Loading websites               |
 | ICMP     | Network Diagnostics          | Seen during `ping` test        |
 
-📸 *Screenshot: Expand packet details for 1–2 protocols*
-
 ---
 
 ### ✅ Step 7: Export the Capture File
 
 1. Go to **File → Export Packet Dissections → As .pcap**
 2. Save as `network_capture.pcap`
-
-📸 *Screenshot: Save/export dialog*
 
 ---
 
